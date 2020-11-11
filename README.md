@@ -11,7 +11,7 @@ The Web Audio API is great. It's approach of creating new nodes and garbage coll
 
 Here's a basic example:
 
-```
+```js
 const audioCtx = new AudioContext();
 const graph = new AudioGraph();
 
@@ -34,7 +34,7 @@ console.log(connections[0]) // should print the gainNode
 
 there are also options to save nodes as strings, and create nodes again by parsing those strings.
 
-```
+```js
     ....
     const string = oscNode.toString();
     // Now you can, for example, save the string to a database
