@@ -1,4 +1,5 @@
 # Web Audio Graph
+Docs are [here](https://caesuraco.github.io/web-audio-graph/) (auto-generated with TypeDoc)
 
 ## Why?
 
