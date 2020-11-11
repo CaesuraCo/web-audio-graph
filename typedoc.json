@@ -1,0 +1,7 @@
+{
+  "inputFiles": ["./src/Graph.ts"],
+  "mode": "modules",
+  "out": "docs",
+  "excludeNotExported": true,
+  "stripInternal": true
+}
