@@ -1,9 +1,11 @@
 # Web Audio Graph
+![Node.js CI](https://github.com/CaesuraCo/web-audio-graph/workflows/Node.js%20CI/badge.svg?branch=master)
+
 Docs are [here](https://caesuraco.github.io/web-audio-graph/) (auto-generated with TypeDoc)
 
 ## Why?
 
-The Web Audio API is great. It's approach of creating new nodes and garbage collecting old ones makes a lot of sense, except in the instances where you want to keep nodes around. For example, if you stop an `OscillatorNode`, it is basically useless and a new one should be created. This loses all of it's connections and values of course, which could be not what you want. This project sets you up with a graph, that automatically creates a new node when you stop it, and keeps track of connections and reconnects if needed. This also allows you to check which node is connected to which, another feature that can be very benificial.
+The Web Audio API is great. It's approach of creating new nodes and garbage collecting old ones makes a lot of sense, except in the instances where you want to keep nodes around. For example, if you stop an `OscillatorNode`, it is basically useless and a new one should be created. This loses all of its connections and values of course, which could be not what you want. This project sets you up with a graph, that automatically creates a new node when you stop it, and keeps track of connections and reconnects if needed. This also allows you to check which node is connected to which, another feature that can be very benificial.
 
 ## How to use
 
