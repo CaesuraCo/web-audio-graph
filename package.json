@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "test": "jest --config jestConfig.json --watchAll",
+    "test": "jest --config jestConfig.json",
+    "test-watch": "jest --config jestConfig.json --watchAll",
     "prepare": "yarn build",
     "doc": "typedoc --theme minimal",
     "prepublishOnly": "yarn test"
